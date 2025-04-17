@@ -7,3 +7,8 @@ Data Structures &amp; Algorithms in Rust!
 ```
 cargo test -p rustdsa-lib
 ```
+
+# Command for test specific integration tests
+```
+test --test [filename for test]
+```

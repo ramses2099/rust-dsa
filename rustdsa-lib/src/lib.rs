@@ -1,5 +1,5 @@
 pub mod array_list;
-
+pub mod stack;
 
 // #[cfg(test)]
 // mod tests {
