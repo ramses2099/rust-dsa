@@ -1,5 +1,6 @@
 pub mod array_list;
 pub mod stack;
+pub mod queue;
 
 // #[cfg(test)]
 // mod tests {
