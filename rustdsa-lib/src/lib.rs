@@ -1,6 +1,7 @@
 pub mod array_list;
 pub mod stack;
 pub mod queue;
+pub mod deque;
 
 // #[cfg(test)]
 // mod tests {
