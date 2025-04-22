@@ -1,11 +1,17 @@
 #![allow(unused_imports)]
 
+use palindrome_checker::*;
 
-use test_deque::*;
-
-mod test_deque;
+mod palindrome_checker;
 
 fn main() {
-    basic();
-    iter();
+    let pal = "rustsur";
+    let is_pal = palindrome_checker(pal);
+    println!("{pal} is palindrome string: {is_pal}");
+
+    
+    let pal = "panda";
+    let is_pal = palindrome_checker(pal);
+    println!("{pal} is palindrome string: {is_pal}");
+    
 }
